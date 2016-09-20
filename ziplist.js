@@ -24,7 +24,7 @@ function zipListTheSimpleWay(list1, list2){
   zippedList = _.zip(list1, list2);
   return _.flatten(zippedList);
 }
-
-//console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
+console.log('zipList:');
+console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 console.log('zipListTheSimpleWay:');
 console.log(zipListTheSimpleWay(['a', 'b', 'c'], [1, 2, 3]));
